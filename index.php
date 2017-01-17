@@ -24,11 +24,7 @@
 				{
 					if ($i==$donnees['ID'])
 					{
-						echo $donnees['nom'];
-						echo $donnees['prenom'];
-						echo $donnees['surnom']; 
-						echo $donnees['numero']; 
-						echo $donnees['email'];
+						echo $donnees['surnom'];
 					}
 				}
 

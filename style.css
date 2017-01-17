@@ -25,3 +25,7 @@ main{
 	width: 100px;
 	float: left;
 }
+.gris {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
