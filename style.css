@@ -11,6 +11,9 @@ p{
 	text-align: center;
     word-wrap: break-word;
 }
+form p{
+	text-align: left;
+}
 main{
 	display: block;
 	margin-right: auto;
@@ -26,5 +29,4 @@ main{
 	width: 100px;
 	float: left;
 	height: 150px;
-	overflow: auto;
 }

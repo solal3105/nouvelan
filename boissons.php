@@ -10,7 +10,7 @@
 <?php $bdd = new PDO('mysql:host=localhost;dbname=nouvelan_table;charset=utf8', 'root', '');
 
 
-$reponse = $bdd->query('select * from visiteurs');
+$reponse = $bdd->query('select * from visiteurs ORDER BY ID ASC');
 ?>
 <body>
 	<main>
@@ -40,14 +40,14 @@ $reponse = $bdd->query('select * from visiteurs');
 				    }
 
 					if (isset($donnees['surnom'])) {
-						echo $donnees['ID'];
+						echo '<p>' . $i . ' ';
 						echo $donnees['surnom'];
 						echo ' ';
-						echo '<br>';
+						echo '</p><br>';
 					}
 					else{
-						echo $i . '  ';
-						echo 'Surnom<br>';
+						echo '<p>' . $i . '  ';
+						echo 'Surnom</p><br>';
 					}
 
 				    echo '</div>';
