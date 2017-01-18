@@ -4,24 +4,17 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 h1{
 	text-align: center;
-	margin: 20px;
 	font-family: 'Amatic SC', arial;
-	font-size: 34px;
+	font-size: 40px;
+	background-color: yellow;
 }
 p{
 	text-align: center;
     word-wrap: break-word;
 }
-label{
-	text-align: left;
-}
 main{
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
-	overflow: hidden;
-	max-width: 800px;
-	background-color: rgba(255,255,255,0.9);
+	background-color: red;
+	height: 100vh;
 }
 .boisson{
 	width: 100%;
