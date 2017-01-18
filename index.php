@@ -9,34 +9,26 @@
 
 <body>
 	<main>
-		<div id="partieun">
+		<h1>Résèrve ta bière en compagnie de la famille gendrin !</h1>
+
+
 		<form action="cible.php" method="post">
-			<section>
-				<label>Prénom :
-					<br>
-					<input name="prenom" type="text">
-				</label>
-				<br>
-				<label>Nom :
-					<br>
-					<input name="nom" type="text">
-				</label>
-				<br>
-				<label>Surnom (visible par tous) :
-					<br>
-					<input name="surnom" type="text">
-				</label>
-			</section>
-		</div>
-			<section>
-				<select name="type_de_boisson" size="1">
-					<option> Bière </option>
-					<option> Vin </option>
-					<option> Champagne </option>
-					<option> Eau </option>
-					<option> Café </option>
-				</select> <input type="submit">
-			</section>
+			<label>Prénom :
+				<input name="prenom" type="text">
+			</label>
+			<label>Nom :
+				<input name="nom" type="text">
+			</label>
+			<label>Surnom (visible par tous) :
+				<input name="surnom" type="text">
+			</label>
+			<select name="type_de_boisson" size="1">
+				<option> Bière </option>
+				<option> Vin </option>
+				<option> Champagne </option>
+				<option> Eau </option>
+				<option> Café </option>
+			</select> <input type="submit">
 		</form>
 	</main>
 </body>

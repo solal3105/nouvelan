@@ -2,7 +2,7 @@
 
 <html>
 	<?php 
-	if(!empty($_POST['surnom']) OR !empty($_POST['nom']))
+	if(!empty($_POST['surnom']))
 	{
 		$bdd = new PDO('mysql:host=localhost;dbname=nouvelan_table;charset=utf8', 'root', '');
 		$req = $bdd->prepare('INSERT INTO visiteurs(surnom,prenom,nom,type_de_boisson) VALUES(:surnom, :prenom, :nom, :type_de_boisson)');
@@ -21,7 +21,7 @@
 	}
 	else
 	{
-		echo 'Le champ surnom ou nom est vide !';
+		echo 'Le champ surnom est vide !';
 		echo '<a href="index.php" > Retour à l\'acceuil</a>';
 	}
 	?>
