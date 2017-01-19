@@ -2,7 +2,7 @@
 
 <html>
 <head>
-	<link href="style.css" rel="stylesheet" type="text/css">
+	<link href="boissons.css" rel="stylesheet" type="text/css">
 
 	<title>Nouvel an Gendrin</title>
 </head>
